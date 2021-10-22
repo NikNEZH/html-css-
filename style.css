@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+}
+body {
+  margin: 0 10% 0 10%;
+  border: 0px;
+  width: 80%;
+  box-sizing: border-box;
+  height: 100%;
+  background: linear-gradient(45deg, red, yellow);
+  font: normal 16px "Pacifico", cursive;
+}
+.head h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.jorgjo {
+  border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 4px 4px 14px black;
+}
+#pov {
+  text-align: center;
+  text-shadow: 2px 1px 1px red;
+}
+/* .table li:nth-child(even),
+.table li:nth-child(odd) {
+  background-color: red;
+  width: min-content;
+  list-style: none;
+} */
+
+.fromhroup-male {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.fromhroup-male label {
+  display: flex;
+  margin: 0 5px 0 0;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.fromhroup label {
+  display: block;
+  font-size: 18px;
+  color: royalblue;
+}
+
+.fromhroup input,
+.fromhroup textarea {
+  width: 100%;
+  margin: 0px;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+  border-bottom: 2px solid silver;
+  font-family: inherit;
+  background: transparent;
+  outline: none;
+}
+
+.fromhroup {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.btn input {
+  padding: 15px 15px;
+  background: black;
+  color: gold;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn input:hover {
+  opacity: 0.7;
+}
+
+.tables {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 20px 0 0;
+  margin: 0 20px 0 0;
+  border: none;
+}
+
+.position {
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+@keyframes moveit {
+  0% {
+    left: 0px;
+  }
+  25% {
+    left: 1165px;
+  }
+  50% {
+    left: 1165px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.bloks {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: rgb(236, 7, 83);
+  position: relative;
+  animation-name: moveit;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
